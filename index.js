@@ -18,7 +18,7 @@ app.get('/tc/:num', (req,res) =>{
     num = num.split('+91')[1]
   }
   
-  const data = tc.searchNumber({"number":number,'countryCode': 'IN','installationId':trueCallerId})
+  const data = tc.searchNumber({"number": num,'countryCode': 'IN','installationId': apiKey})
   
   let result = {
     'ok':false,
