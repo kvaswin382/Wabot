@@ -30,54 +30,8 @@
         "url": "git+https://github.com/kvaswin382/Wabot"
     },
     "dependencies": {
-        "@adiwajshing/baileys": "github:adiwajshing/baileys",
-        "@hapi/boom": "^10.0.0",
-        "@juliendu11/instagram-downloader": "^0.2.0",
-        "axios": "^0.27.2",
-        "cheerio": "1.0.0-rc.12",
-        "curve25519-js": "^0.0.4",
-        "dotenv": "^16.0.3",
-        "@ffmpeg-installer/ffmpeg":"^1.0.13",
-        "fluent-ffmpeg": "^2.1.2",
-        "g-i-s": "^2.1.6",
-        "genius-lyrics": "^4.4.0",
-        "intl": "^1.2.5",
-        "libsignal": "git+https://github.com/adiwajshing/libsignal-node",
-        "mongodb": "^4.12.1",
-        "music-metadata": "^8.1.0",
-        "node-cache": "^5.1.2",
-        "pino": "^8.7.0",
-        "pretty": "^2.0.0",
-        "protobufjs": "^7.1.2",
-        "puppeteer": "^19.3.0",
-        "request": "^2.88.2",
+        "express": "^4.18.2",
         "truecallerjs": "^1.1.2",
-        "ts-node": "^10.9.1",
-        "urban-dictionary": "^3.0.2",
-        "url-regex": "^5.0.0",
-        "wa-sticker-formatter": "^4.3.2",
-        "ws": "^8.11.0",
-        "ytdl-core": "github:jacktheboss220/node-ytdl-core"
-    },
-    "peerDependencies": {
-        "@adiwajshing/keyed-db": "^0.2.4",
-        "jimp": "^0.16.2",
-        "qrcode-terminal": "^0.12.0",
-        "sharp": "^0.30.7"
-    },
-    "peerDependenciesMeta": {
-        "@adiwajshing/keyed-db": {
-            "optional": true
-        },
-        "jimp": {
-            "optional": true
-        },
-        "qrcode-terminal": {
-            "optional": true
-        },
-        "sharp": {
-            "optional": true
-        }
     },
     "devDependencies": {
         "@adiwajshing/eslint-config": "git+https://github.com/adiwajshing/eslint-config",
