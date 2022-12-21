@@ -31,6 +31,6 @@
     },
     "dependencies": {
         "express": "^4.18.2",
-        "truecallerjs": "^1.1.2",
+        "truecallerjs": "^1.1.2"
     }
 }
