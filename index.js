@@ -2,7 +2,7 @@ const tc = require('truecallerjs')
 const express = require('express')
 const app = express()
 const port = 8000//Your preferred port
-const apiKey = '';//Your registration key from truecaller 
+const apiKey = 'a1k07--Vgdfyvv_rftf5uuudhuhnkljyvvtfftjuhbuijbhug';//Your registration key from truecaller 
 
 app.get('/', (req,res) => {
   res.send(`Server running at ${port}`)
