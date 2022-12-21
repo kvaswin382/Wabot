@@ -1,21 +1,97 @@
 {
-  "name": "mp3convapi",
-  "version": "1.0.0",
-  "description": "A Restful API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "restful",
-    "api",
-    "nodejs"
-  ],
-  "author": "aswinkv382@gmail.com",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "request": "^2.88.2",
-    "fluent-ffmpeg": "^2.1.1"
-  }
+    "name": "whatsapp-bot-md",
+    "version": "4.0.1",
+    "description": "WhatsApp API",
+    "homepage": "https://github.com/kvaswin382",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "engines": {
+        "node": "16.14.2",
+        "npm": "8.19.2"
+    },
+    "keywords": [
+        "whatsapp",
+        "js-whatsapp",
+        "whatsapp-api",
+        "whatsapp-web",
+        "whatsapp",
+        "whatsapp-chat",
+        "whatsapp-group",
+        "automation",
+        "multi-device"
+    ],
+    "scripts": {
+        "main": "node index.js"
+    },
+    "author": "I-Bot",
+    "repository": {
+        "url": "git+https://github.com/kvaswin382/Wabot"
+    },
+    "dependencies": {
+        "@adiwajshing/baileys": "github:adiwajshing/baileys",
+        "@hapi/boom": "^10.0.0",
+        "@juliendu11/instagram-downloader": "^0.2.0",
+        "axios": "^0.27.2",
+        "cheerio": "1.0.0-rc.12",
+        "curve25519-js": "^0.0.4",
+        "dotenv": "^16.0.3",
+        "@ffmpeg-installer/ffmpeg":"^1.0.13",
+        "fluent-ffmpeg": "^2.1.2",
+        "g-i-s": "^2.1.6",
+        "genius-lyrics": "^4.4.0",
+        "intl": "^1.2.5",
+        "libsignal": "git+https://github.com/adiwajshing/libsignal-node",
+        "mongodb": "^4.12.1",
+        "music-metadata": "^8.1.0",
+        "node-cache": "^5.1.2",
+        "pino": "^8.7.0",
+        "pretty": "^2.0.0",
+        "protobufjs": "^7.1.2",
+        "puppeteer": "^19.3.0",
+        "request": "^2.88.2",
+        "truecallerjs": "^1.1.2",
+        "ts-node": "^10.9.1",
+        "urban-dictionary": "^3.0.2",
+        "url-regex": "^5.0.0",
+        "wa-sticker-formatter": "^4.3.2",
+        "ws": "^8.11.0",
+        "ytdl-core": "github:jacktheboss220/node-ytdl-core"
+    },
+    "peerDependencies": {
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "jimp": "^0.16.2",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.30.7"
+    },
+    "peerDependenciesMeta": {
+        "@adiwajshing/keyed-db": {
+            "optional": true
+        },
+        "jimp": {
+            "optional": true
+        },
+        "qrcode-terminal": {
+            "optional": true
+        },
+        "sharp": {
+            "optional": true
+        }
+    },
+    "devDependencies": {
+        "@adiwajshing/eslint-config": "git+https://github.com/adiwajshing/eslint-config",
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@types/got": "^9.6.12",
+        "@types/jest": "^29.2.3",
+        "@types/node": "^18.11.10",
+        "@types/pino": "^7.0.5",
+        "@types/sharp": "^0.30.4",
+        "@types/ws": "^8.5.3",
+        "eslint": "^8.29.0",
+        "jimp": "^0.16.2",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.30.7",
+        "typedoc": "^0.23.21"
+    }
 }
